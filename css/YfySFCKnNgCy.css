@@ -1,0 +1,20 @@
+#mute-btn1, #mute-btn2 {
+    position: absolute;
+    top: 5%; /* Coloca o botão no canto superior esquerdo */
+    left: 5%;
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Garante que o botão fique acima do vídeo */
+}
+
+video {
+    position: relative;
+    display: block;
+    width: 100%; /* Garante que o vídeo seja responsivo */
+    height: auto;
+}
